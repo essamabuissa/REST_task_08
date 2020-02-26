@@ -70,5 +70,3 @@ class ProfileDetails(RetrieveAPIView):
 
 	def get_object(self):
 		return self.request.user.profile
-
-
